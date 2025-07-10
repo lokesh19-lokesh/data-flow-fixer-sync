@@ -1,24 +1,26 @@
 
-import Hero from "@/components/sections/Hero";
-import About from "@/components/sections/About";
-import Experience from "@/components/sections/Experience";
-import Projects from "@/components/sections/Projects";
-import Skills from "@/components/sections/Skills";
-import Education from "@/components/sections/Education";
-import Contact from "@/components/sections/Contact";
-import Navigation from "@/components/Navigation";
+import CoachingNavigation from "@/components/coaching/CoachingNavigation";
+import CoachingHero from "@/components/coaching/CoachingHero";
+import ClientLogos from "@/components/coaching/ClientLogos";
+import VideoSection from "@/components/coaching/VideoSection";
+import AboutSection from "@/components/coaching/AboutSection";
+import ProgramsSection from "@/components/coaching/ProgramsSection";
+import SuccessStories from "@/components/coaching/SuccessStories";
+import FreeResources from "@/components/coaching/FreeResources";
+import CoachingFooter from "@/components/coaching/CoachingFooter";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
-      <Navigation />
-      <Hero />
-      <About />
-      <Experience />
-      <Projects />
-      <Skills />
-      <Education />
-      <Contact />
+      <CoachingNavigation />
+      <CoachingHero />
+      <ClientLogos />
+      <VideoSection />
+      <AboutSection />
+      <ProgramsSection />
+      <SuccessStories />
+      <FreeResources />
+      <CoachingFooter />
     </div>
   );
 };
