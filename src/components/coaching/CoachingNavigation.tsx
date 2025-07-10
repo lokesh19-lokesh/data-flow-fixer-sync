@@ -86,8 +86,8 @@ const CoachingNavigation = () => {
         </div>
       </div>
 
-      {/* Main Navigation */}
-      <nav className="fixed top-0 w-full bg-background/95 backdrop-blur-md border-b border-border z-50" style={{ top: '120px' }}>
+      {/* Main Navigation - Now Sticky */}
+      <nav className="sticky top-0 w-full bg-background/95 backdrop-blur-md border-b border-border z-50">
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center h-20">
             <div className="font-playfair text-2xl font-bold text-secondary">
