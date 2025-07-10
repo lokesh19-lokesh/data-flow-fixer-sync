@@ -66,6 +66,19 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Multi-color vibrant palette
+				vibrant: {
+					pink: 'hsl(var(--vibrant-pink))',
+					purple: 'hsl(var(--vibrant-purple))',
+					gold: 'hsl(var(--vibrant-gold))',
+					coral: 'hsl(var(--vibrant-coral))',
+					teal: 'hsl(var(--vibrant-teal))',
+					lavender: 'hsl(var(--vibrant-lavender))',
+					mint: 'hsl(var(--vibrant-mint))',
+					peach: 'hsl(var(--vibrant-peach))',
+					indigo: 'hsl(var(--vibrant-indigo))',
+					rose: 'hsl(var(--vibrant-rose))'
 				}
 			},
 			borderRadius: {
