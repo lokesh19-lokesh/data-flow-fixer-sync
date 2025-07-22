@@ -1,26 +1,24 @@
 
-import CoachingNavigation from "@/components/coaching/CoachingNavigation";
-import CoachingHero from "@/components/coaching/CoachingHero";
-import ClientLogos from "@/components/coaching/ClientLogos";
-import VideoSection from "@/components/coaching/VideoSection";
-import AboutSection from "@/components/coaching/AboutSection";
-import ProgramsSection from "@/components/coaching/ProgramsSection";
-import SuccessStories from "@/components/coaching/SuccessStories";
-import FreeResources from "@/components/coaching/FreeResources";
-import CoachingFooter from "@/components/coaching/CoachingFooter";
+import InteriorNavigation from "@/components/interior/InteriorNavigation";
+import InteriorHero from "@/components/interior/InteriorHero";
+import InteriorServices from "@/components/interior/InteriorServices";
+import InteriorPortfolio from "@/components/interior/InteriorPortfolio";
+import InteriorAbout from "@/components/interior/InteriorAbout";
+import InteriorTestimonials from "@/components/interior/InteriorTestimonials";
+import InteriorContact from "@/components/interior/InteriorContact";
+import InteriorFooter from "@/components/interior/InteriorFooter";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
-      <CoachingNavigation />
-      <CoachingHero />
-      <ClientLogos />
-      <VideoSection />
-      <AboutSection />
-      <ProgramsSection />
-      <SuccessStories />
-      <FreeResources />
-      <CoachingFooter />
+      <InteriorNavigation />
+      <InteriorHero />
+      <InteriorServices />
+      <InteriorPortfolio />
+      <InteriorAbout />
+      <InteriorTestimonials />
+      <InteriorContact />
+      <InteriorFooter />
     </div>
   );
 };
